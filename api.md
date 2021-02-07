@@ -42,13 +42,13 @@
 
 > 172.31.248.20
 
-| 名称                            | API                        | 参数                                                            | 说明                                                                              |
-| ------------------------------- | -------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 用户信息                        | /accountcardUser.action    |                                                                 |                                                                                   |
-| 查询流水第一步                  | /accounthisTrjn.action     |                                                                 |                                                                                   |
-| 查询流水第二步<sup>POST</sup>   | /accounthisTrjn1.action    | account: 账号, inputObject: all, Submit: +%C8%B7+%B6%A8+        |                                                                                   |
-| 查询流水第三步<sup>POST</sup>   | /accounthisTrjn2.action    | inputStartDate: YYYYMMDD, inputEndDate: YYYYMMDD                |                                                                                   |
-| 查询流水第四步<sup>POST</sup>   | /accounthisTrjn3.action    |                                                                 |                                                                                   |
+| 名称                            | API                        | 参数                                                         | 说明                                                         |
+| ------------------------------- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 用户信息                        | /accountcardUser.action    |                                                              |                                                              |
+| 查询流水第一步                  | /accounthisTrjn.action     |                                                              |                                                              |
+| 查询流水第二步<sup>POST</sup>   | /accounthisTrjn1.action    | account: 账号, inputObject: all, Submit: +%C8%B7+%B6%A8+     | Submit 是查询类型                                            |
+| 查询流水第三步<sup>POST</sup>   | /accounthisTrjn2.action    | inputStartDate: YYYYMMDD, inputEndDate: YYYYMMDD             | 不限于 31 天                                                 |
+| 查询流水第四步<sup>POST</sup>   | /accounthisTrjn3.action    |                                                              |                                                              |
 | 通过页数查询流水<sup>POST</sup> | /accountconsubBrows.action | inputStartDate: YYYYMMDD, inputEndDate: YYYYMMDD, pageNum: 页码 | 此处日期必须与第三步查询一致<small>不明白为什么再 POST 一次日期，莫名其妙</small> |
 
 ## 教务系统 API
