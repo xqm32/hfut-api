@@ -28,6 +28,7 @@
 | 名称 | API       | 参数                                                   | 说明 |
 | ---- | --------- | ------------------------------------------------------ | ---- |
 | 会议 | /yzhy.jsp | urltype=tree.TreeTempUrl&wbtreeid=1057&date=YYYY-MM-DD |      |
+|      |           |                                                        |      |
 
 ## 图书馆
 
@@ -59,3 +60,12 @@
 | 学生信息 | /eams5-student/ws/student/home-page/students   |                                             |                |
 | 成绩     | /eams5-student/for-std/grade/sheet/info/学生ID | semester=                                   | 学生ID不是学号 |
 | 课表     | /eams5-student/for-std/course-table/get-data   | bizTypeId=2&semesterId=学期ID&dataId=学生ID |                |
+
+## 其他
+
+> hfut.edu.cn
+
+| 名称 | API        | 参数 | 说明               |
+| ---- | ---------- | ---- | ------------------ |
+| 校车 | /xcxx.htm  |      | 可以用 pandas 读取 |
+| 校历 | /gdxl1.htm |      |                    |
