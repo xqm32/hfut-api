@@ -59,11 +59,12 @@
 
 > jxglstu.hfut.edu.cn
 
-| 名称     | API                                            | 参数                                        | 说明           |
-| -------- | ---------------------------------------------- | ------------------------------------------- | -------------- |
-| 学生信息 | /eams5-student/ws/student/home-page/students   |                                             |                |
-| 成绩     | /eams5-student/for-std/grade/sheet/info/学生ID | semester=                                   | 学生ID不是学号 |
-| 课表     | /eams5-student/for-std/course-table/get-data   | bizTypeId=2&semesterId=学期ID&dataId=学生ID |                |
+| 名称     | API                                                   | 参数                                        | 说明           |
+| -------- | ----------------------------------------------------- | ------------------------------------------- | -------------- |
+| 学生信息 | /eams5-student/ws/student/home-page/students          |                                             |                |
+| 成绩     | /eams5-student/for-std/grade/sheet/info/学生ID        | semester=                                   | 学生ID不是学号 |
+| 课表     | /eams5-student/for-std/course-table/get-data          | bizTypeId=2&semesterId=学期ID&dataId=学生ID |                |
+| 培养方案 | eams5-student/for-std/program/root-module-json/学生ID |                                             |                |
 
 ## 其他
 
